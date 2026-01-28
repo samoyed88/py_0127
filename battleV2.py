@@ -2,12 +2,15 @@
 # 寶可夢對戰（自動充能版）填空
 # ==========================================
 
+# ------- 名稱 -------
 player_name = "沙奈朵"
 enemy_name = "快龍"
 
+# ------- 初始血量 -------
 player_hp = 30
 enemy_hp = 30
 
+# ------- 玩家招式（傷害 + 能量花費）-------
 move1_name = "魔法葉"
 move1_dmg = 8
 move1_cost = 1
@@ -16,6 +19,7 @@ move2_name = "精神強念"
 move2_dmg = 12
 move2_cost = 2
 
+# ------- 對手招式（先簡化：對手用同一套花費概念）-------
 enemy_move1_name = "龍爪"
 enemy_move1_dmg = 7
 enemy_move1_cost = 1
@@ -24,9 +28,11 @@ enemy_move2_name = "龍之波動"
 enemy_move2_dmg = 11
 enemy_move2_cost = 2
 
+# ------- 能量（雙方都需要）-------
 player_energy = 0
 enemy_energy = 0
 
+# ------- 道具 -------
 potion = 2
 potion_heal = 10
 
